@@ -1,11 +1,11 @@
 .divAnimalContainer {
+    position: relative;
+    height: 55vh;
     width: calc((100vw - var(--gap-InContainer) - 3 * var(--padding-global))/ 3);
     /* border: .15px solid var(--color-white); */
-    border-radius: 1rem;
     border: none;
+    border-radius: 1rem;
     box-shadow: 0 0 1rem 0 var(--color-white);
-    height: 55vh;
-    position: relative;
 }
 figure {
     font-size: 6rem;
@@ -26,18 +26,20 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: var(--gap-InContainer)
+    gap: var(--gap-InContainer);
+    border-radius: inherit
 }
 
 ul {
+    position: absolute;
+    bottom: 0;
     background: var(--color-blue);
     /* width: 100%; */
     display: flex;
     flex-direction: column;
     padding: 2rem;
     list-style-position: inside;
-    position: absolute;
-    bottom: 0;
+    border-radius: inherit
 }
 
 ul li {

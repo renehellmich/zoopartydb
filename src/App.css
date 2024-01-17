@@ -23,11 +23,19 @@ main {
   padding: 1rem var(--padding-global)
 }
 
+h1 {
+  font-size: 5rem;
+}
+
+p {
+  font-size: 3rem;
+}
+
 .animals {
   
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
